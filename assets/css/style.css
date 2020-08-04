@@ -70,7 +70,8 @@ footer {
 }
 .main{
     background-color: #333333;
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     padding: 43.5px 0;
 }
 .logo-text{
@@ -86,6 +87,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .site{
     display: block;
@@ -93,6 +95,7 @@ footer {
     width: 100%;
     height: 300px;
     border-radius: 15%;
+    margin-top: 25px;
 }
 .blueasy{
     background-image: url(../img/blueasy.png);
