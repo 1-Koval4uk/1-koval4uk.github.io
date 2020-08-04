@@ -100,7 +100,13 @@ footer {
     background-position: center;
     transition: 0.2s ease-in-out;
 }
-.blueasy:hover{
+.new-prov{
+  background-image: url(../img/new-prov.png);
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s ease-in-out;
+}
+.site:hover{
     background-color: black;
     opacity: 0.6;
     transform: scale(1.2);
