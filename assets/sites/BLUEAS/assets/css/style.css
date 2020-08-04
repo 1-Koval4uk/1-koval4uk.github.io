@@ -66,15 +66,30 @@ footer {
 .fa {
   font-size: 30px; }
 
-@font-face {
-  font-family: 'Segoe-r';
-  src: url(../assets/fonts/SegoeUI.ttf); }
+  @font-face {
+    font-family: 'Segoe-r';
+    src: url('../fonts/SegoeUI.eot'),
+    url('../fonts/SegoeUI.woff') format('woff'),
+    url('../fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}    
 @font-face {
   font-family: 'Segoe-l';
-  src: url(../assets/fonts/SegoeUI-Light.ttf); }
+  src: url('../fonts/SegoeUI-Light.eot'),
+  url('../fonts/SegoeUI-Light.woff') format('woff'),
+  url('../fonts/SegoeUI-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'Segoe-b';
-  src: url(../fonts/SegoeUI-Bold.ttf); }
+  src: url('../fonts/SegoeUI-Bold.eot'),
+  url('../fonts/SegoeUI-Bold.woff') format('woff'),
+  url('../fonts/SegoeUI-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .header {
   position: fixed;
   top: 0px;
