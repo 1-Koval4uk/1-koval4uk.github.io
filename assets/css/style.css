@@ -109,6 +109,12 @@ footer {
   background-position: center;
   transition: 0.2s ease-in-out;
 }
+.luis{
+  background-image: url(../img/luis.png);
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s ease-in-out;
+}
 .site:hover{
     background-color: black;
     opacity: 0.6;
